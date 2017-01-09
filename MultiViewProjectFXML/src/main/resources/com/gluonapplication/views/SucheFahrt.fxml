@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigation?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import com.gluonhq.charm.glisten.control.ToggleButtonGroup?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<View fx:id="primary1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="350.0" stylesheets="@primary.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.SucheFahrtPresenter">
+   <center>
+      <AnchorPane id="TSR" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="39.0" layoutY="95.0" text="Depart" />
+            <Label layoutX="38.0" layoutY="161.0" text="Arrivee" />
+            <Label layoutX="46.0" layoutY="230.0" text="Date" />
+            <Label fx:id="PLACE" layoutX="43.0" layoutY="292.0" text="Place" />
+            <Label fx:id="lbl5" layoutX="172.0" layoutY="292.0" text="Label" />
+            <Button id="IDCH" fx:id="CUT" layoutX="50.0" layoutY="362.0" mnemonicParsing="false" onAction="#buttonAlle" prefHeight="46.0" prefWidth="244.0" text="Chercher un Trajet" />
+            <TextField id="PDTC" fx:id="DP" layoutX="99.0" layoutY="90.0" onAction="#buttonClick2" onContextMenuRequested="#buttonClick2" onInputMethodTextChanged="#buttonClick2" onKeyPressed="#buttonClick2" onKeyReleased="#buttonClick2" onKeyTyped="#buttonClick2" onMouseClicked="#buttonClick2" onMousePressed="#buttonClick2" onTouchMoved="#buttonClick2" onTouchPressed="#buttonClick2" onTouchReleased="#buttonClick2" onTouchStationary="#buttonClick2" prefHeight="40.0" prefWidth="198.0" promptText="Current position" />
+            <TextField id="DPQ" fx:id="DC" layoutX="101.0" layoutY="156.0" onAction="#buttonClick3" onContextMenuRequested="#buttonClick3" onKeyPressed="#buttonClick3" onMouseClicked="#buttonClick3" onMousePressed="#buttonClick3" onMouseReleased="#buttonClick3" onTouchMoved="#buttonClick3" onTouchPressed="#buttonClick3" onTouchReleased="#buttonClick3" onTouchStationary="#buttonClick3" prefHeight="40.0" prefWidth="199.0" promptText="Destination position" />
+            <TextField fx:id="Tdate" layoutX="101.0" layoutY="225.0" onAction="#openCalendar" onInputMethodTextChanged="#openCalendar" onKeyPressed="#openCalendar" onKeyReleased="#openCalendar" onKeyTyped="#openCalendar" onMouseClicked="#openCalendar" onTouchMoved="#openCalendar" onTouchPressed="#openCalendar" prefHeight="34.0" prefWidth="201.0" promptText="Date" />
+            <Icon id="VO" content="DIRECTIONS_RAILWAY" layoutX="300.0" layoutY="95.0" />
+            <Icon id="VA" content="DIRECTIONS" layoutX="302.0" layoutY="159.0" />
+            <ToggleButtonGroup fx:id="TGA" layoutX="218.0" layoutY="280.0" prefHeight="42.0" prefWidth="73.0" selectionType="SINGLE">
+                <toggles>
+                    <ToggleButton id="TSRA" fx:id="ADDA" selected="true" style="-fx-background-color: green;">
+                        <graphic>
+                            <Icon content="ADD" />
+                        </graphic>
+                    </ToggleButton>
+                    <ToggleButton id="TSR" fx:id="SUBBA" style="-fx-background-color: white;">
+                        <graphic>
+                            <Icon content="REMOVE" />
+                        </graphic>
+                    </ToggleButton>
+                </toggles>
+            </ToggleButtonGroup>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <BottomNavigation style="-fx-background-color: green;" BorderPane.alignment="CENTER">
+          <fx:define>
+              <ToggleGroup fx:id="toggleGroup" />
+          </fx:define>
+          <actionItems>
+              <ToggleButton contentDisplay="TOP" onAction="#buttonClick1" selected="true" style="-fx-background-color: green;" styleClass="bottom-nav-button" text="Home">
+                  <graphic>
+                      <Icon content="HOME" />
+                  </graphic>
+               <toggleGroup>
+                  <ToggleGroup fx:id="toggleGroup" />
+               </toggleGroup>
+              </ToggleButton>
+              <ToggleButton contentDisplay="TOP" onAction="#buttonClick" style="-fx-background-color: green;" styleClass="bottom-nav-button" text="Chercher">
+                  <graphic>
+                      <Icon content="SEARCH" />
+                  </graphic>
+                  <toggleGroup>
+                      <fx:reference source="toggleGroup" />
+                  </toggleGroup>
+              </ToggleButton>
+              <ToggleButton contentDisplay="TOP" style="-fx-background-color: green;" styleClass="bottom-nav-button" text="Proposer">
+                  <graphic>
+                      <Icon content="ADD" />
+                  </graphic>
+                  <toggleGroup>
+                      <fx:reference source="toggleGroup" />
+                  </toggleGroup>
+              </ToggleButton>
+          </actionItems>
+         <padding>
+            <Insets bottom="55.0" />
+         </padding>
+      </BottomNavigation>
+   </bottom>
+</View>

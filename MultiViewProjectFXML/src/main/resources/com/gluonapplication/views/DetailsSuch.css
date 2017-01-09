@@ -1,0 +1,309 @@
+
+#txt{
+	
+	  -fx-background-repeat: stretch; 
+	   -fx-background-size: cover; 
+	  -fx-background-position: center center;
+	  
+}
+
+#ID1{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+	
+}
+.ID11{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+	
+}
+
+
+#ID2{
+	-fx-background-color:white;
+	-fx-text-fill:green ;
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+	
+}
+
+.AppBar{
+	/*-fx-background-color:rgb(137,255,111);*/
+}
+
+#IDCH{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+}
+
+#AID{
+	-fx-background-color:white;
+	-fx-text-fill:green ;
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+}
+
+#FA{
+	-fx-font-size: 18.0px;
+}
+#FB{
+	-fx-font-size: 18.0px;
+}
+#AID{
+	-fx-font-size: 18.0px;
+}
+
+
+#EMAIL{
+	-fx-text-fill:white ;
+}
+
+#CHECK1{
+	-fx-text-fill:green;
+}
+
+#EDIT{
+	-fx-text-fill:green ;
+}
+
+#DB2{
+	-fx-background-color:white;
+	-fx-text-fill:green ;
+	-fx-font-size: 18.0px;
+	-fx-font-weight: bold;
+}
+
+#DB1{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 18.0px;
+	-fx-font-weight: bold;
+}
+
+#FAMO{
+	-fx-background-color:white;
+	-fx-text-fill:green ;
+	-fx-font-size: 18.0px;
+}
+
+#FBC{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 18.0px;
+	-fx-font-weight: bold;
+	
+}
+
+#SVE{
+	-fx-background-color:green;
+	-fx-text-fill:white ;
+	-fx-font-size: 18.0px;
+	-fx-font-weight: bold;
+	
+}
+
+/** .combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+
+   
+    -fx-background-color: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.combo-box-base  
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+.combo-box-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: -fx-pressed-base;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+
+
+
+
+.choise-box {
+    -fx-pref-width: 100;
+}
+
+
+.choise-box-popup > .list-view {
+    -fx-pref-width: 100;
+}*/
+
+#PDTC  {
+    -fx-prompt-text-fill: black;
+    -fx-font-size: 17.0px;
+}
+
+#DPQ {
+    -fx-prompt-text-fill: black;
+    -fx-font-size: 17.0px;
+}
+
+#VO{
+	-fx-text-fill:red ;
+}
+
+#VA{
+	-fx-text-fill:red ;
+}
+
+#Tdate{
+	-fx-prompt-text-fill: black;
+    -fx-font-size: 17.0px;
+}
+
+.date-picker-popup {
+   -fx-background-color:white;
+   -fx-base: white;
+    -fx-accent:#008080 ;
+    -fx-default-button: #008080;
+     -fx-focus-color: red;
+    -fx-faint-focus-color: red;
+   
+    
+    
+    
+    
+}
+
+
+.datepicker {
+    -fx-font-size: 52.0px;
+    -fx-max-height:899.0;
+	 -fx-min-height:899.0;
+	 -fx-pref-height:899.0;
+}
+
+/* .date-picker-popup > .calendar-grid  {
+	 -fx-max-height:900;
+	 -fx-min-height:900;
+	 -fx-pref-height:900;
+	 
+}*/
+
+.date-picker-popup > * > .date-cell {
+    -fx-max-height:60.0;
+	 -fx-min-height:60.0;
+	 -fx-pref-height:60.0;
+}
+
+#ADD{
+	-fx-background-color:white;
+	
+}
+
+#SUB{
+	-fx-background-color:white;
+	
+}
+
+#TSR{
+	-fx-border-color:green;
+	
+}
+
+#TSRA{
+	-fx-border-color:green;
+	-fx-background-color:green;
+}
+
+#SE{
+	-fx-text-fill:green ;
+}
+
+/* .Image{
+	-fx-background-radius:50;
+	
+}*/
+
+#TEXT{
+	 -fx-background-color: #B22234;
+}
+
+.list-tile >.text-box >.primary-text  {
+    /*  Headers: Old Glory Red */
+    -fx-text-fill: green;
+}
+
+.list-tile >.text-box >.secondary-text  {
+    /*  Headers: Old Glory Red */
+    
+}
+
+.list-tile >.text-box >.tertiary-text  {
+    -fx-font-size: 14.0px;
+    
+}
+ 
+ .charm-list-view .list-cell.header-cell {
+    /*  Headers: Old Glory Red */
+    -fx-background-color: #00aced;
+}
+.charm-list-view .list-cell.header-cell > .list-tile > .text-box > .primary-text {
+    /* Headers primary text */
+    -fx-text-fill: white;
+}
+
+.charm-list-view .list-cell.header-cell > .list-tile > .text-box > .secondary-text {
+    /* Headers secondary text */
+    -fx-text-fill: #FFFFFFDE;
+}
+
+

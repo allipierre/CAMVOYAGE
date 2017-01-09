@@ -1,0 +1,78 @@
+
+#LID{
+	
+	  -fx-text-fill:green ;
+	  -fx-font-size: 20.0px;
+	  
+}
+
+#SID{
+	-fx-font-size: 20.0px;
+	
+}
+#DID{
+	-fx-font-size: 20.0px;
+	
+}
+
+#SID1{
+	-fx-font-size: 10.0px;
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+	
+}
+#DID1{
+	-fx-font-size: 10.0px;
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+	
+}
+
+#SA{
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+	-fx-font-size: 15.0px;
+}
+#DTA{
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+	-fx-font-size: 13.0px;
+}
+
+#DTB{
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+	-fx-font-size: 13.0px;
+}
+#ID_A{
+	-fx-font-size: 14.0px;
+}
+
+#ID_B{
+	-fx-font-size: 14.0px;
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+}
+
+#NDP{
+		-fx-text-fill:rgb(127.0,127.0,127.0);
+		-fx-font-size: 16.0px;
+}
+
+#CADA{
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+		-fx-font-size: 16.0px;
+}
+
+#ID_C{
+	
+		-fx-font-size: 16.0px;
+}
+
+#ID_D{
+	-fx-text-fill:rgb(127.0,127.0,127.0);
+		-fx-font-size: 16.0px;
+}
+
+#ID_E{
+		-fx-font-size: 16.0px;
+}
+
+
+	
+
+

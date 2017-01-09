@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gluonhq:connect:1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/connect/1.3.0/c4546b2916331f9d0741f3dd99db4a2bc69b784e/connect-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/connect/1.3.0/2263063ca7cd6ce345d7cd6d0a0eb0cf07b522fa/connect-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
