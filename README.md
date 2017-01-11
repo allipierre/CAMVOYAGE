@@ -14,8 +14,9 @@ To execute the AMVOYAGE APP, do as follows:
 I have used Eclipse IDE to developp this Software. You can also Use Netbeans to make It.<br>
 This App use Frameworks and Plugin:
 <ul>
-<li>Eclipse > Install Gluon Plugin 2.4.0. The Version 2.5.0 is not available on Eclipse. But it come Later.</li>
-<li>Netbeans >Install Gluon Plugin 2.5.0</li>
+<li>Eclipse > Install Gluon Plugin 2.4.0. The Version 2.5.0 is not available on Eclipse. But it come Later. http://docs.gluonhq.com/charm/4.2.0/</li>
+<li>Netbeans >Install Gluon Plugin 2.5.0 http://docs.gluonhq.com/charm/4.2.0/</li>
+<li>Install JavaFX Plugin in Eclipse or Netbeans</li>
 </ul>
 
 ![alt tag](http://www2.inf.h-brs.de/~ayotti2s/Bilder/10.png)
