@@ -2,12 +2,12 @@
 CAMVOYAGE is A JavaFX Application for Travel. <br>
 
 #Instructions
-To execute the sample, do as follows:
+To execute the AMVOYAGE APP, do as follows:
 
 <ul>
-<li>Desktop</li>
-<li>Android </li>
-<li>IOS</li>
+<li>Desktop > Just run it from your IDE or from command line: ./gradlew run</li>
+<li>Android > Connect your Android device and run ./gradlew androidInstall</li>
+<li>IOS > Connect your iOS device and run ./gradlew launchIOSDevice</li>
 <li></li>
 </ul>
 
