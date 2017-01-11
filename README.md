@@ -11,7 +11,12 @@ To execute the AMVOYAGE APP, do as follows:
 <li></li>
 </ul>
 #Documentation: What to use to developp this App?
-
+I have used Eclipse IDE to developp this Software. You can also Use Netbeans to make It.<br>
+This App use Frameworks and Plugin:
+<ul>
+<li>Eclipse > Install Gluon Plugin 2.4.0. The Version 2.5.0 is not available on Eclipse. But it come Later.</li>
+<li>Netbeans >Install Gluon Plugin 2.5.0</li>
+</ul>
 
 ![alt tag](http://www2.inf.h-brs.de/~ayotti2s/Bilder/10.png)
 ![alt tag](http://www2.inf.h-brs.de/~ayotti2s/Bilder/b1.png)
