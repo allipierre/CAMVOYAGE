@@ -1,5 +1,5 @@
 # CAMVOYAGE
-CAMVOYAGE is A JavaFX Application for Travel. <br>
+CAMVOYAGE is A free JavaFX Application for Travel. <br>
 
 #Instructions
 To execute the AMVOYAGE APP, do as follows:
