@@ -2,7 +2,7 @@
 CAMVOYAGE is A free JavaFX Application for Travel. <br>
 
 #Instructions
-To execute the AMVOYAGE APP, do as follows:
+To execute the CAMVOYAGE APP, do as follows:
 
 <ul>
 <li>Desktop > Just run it from your IDE or from command line: ./gradlew run</li>
