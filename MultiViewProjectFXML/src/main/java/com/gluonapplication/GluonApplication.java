@@ -30,18 +30,18 @@ import javafx.stage.Stage;
 public class GluonApplication extends MobileApplication {
 
 	public static final String PRIMARY_VIEW = HOME_VIEW;
-	public static final String SECONDARY_VIEW = "Secondary View";
-	public static final String MENU_LAYER = "Side Menu";
-	public static final String SUCHEFAHRT_VIEW = "SucheFahrt View";
-	public static final String ANMELDEN_VIEW = "Anmelden View";
-	public static final String INSCRIPTION_VIEW = "Inscription View";
-	public static final String DATABASETEST_VIEW = "DatabaseTest View";
-	public static final String MODIFIERPROFIL_VIEW = "ModifierProfil View";
-	public static final String BASIC_VIEW = "Basic View";
-	public static final String DESTINATION_VIEW = "Destination View";
-	public static final String CALENDAR_VIEW = "Calendar View";
-	public static final String ALLE_VIEW = "Alle View";
-	public static final String DETAILSSUCH_VIEW = "DetailsSuch View";
+	public static final String SECONDARY_VIEW = "secondary View";
+	public static final String MENU_LAYER = "side Menu";
+	public static final String SUCHEFAHRT_VIEW = "suchefahrt View";
+	public static final String ANMELDEN_VIEW = "anmelden View";
+	public static final String INSCRIPTION_VIEW = "inscription View";
+	public static final String DATABASETEST_VIEW = "databasetest View";
+	public static final String MODIFIERPROFIL_VIEW = "modifierprofil View";
+	public static final String BASIC_VIEW = "basic View";
+	public static final String DESTINATION_VIEW = "destination View";
+	public static final String CALENDAR_VIEW = "calendar View";
+	public static final String ALLE_VIEW = "alle View";
+	public static final String DETAILSSUCH_VIEW = "detailssuch View";
 
 	@Override
 	public void init() {

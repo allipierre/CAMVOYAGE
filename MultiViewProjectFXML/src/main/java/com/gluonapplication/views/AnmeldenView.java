@@ -21,7 +21,7 @@ public class AnmeldenView {
 
 	public View getView() {
 		try {
-			View view = FXMLLoader.load(PrimaryView.class.getResource("Anmelden.fxml"));
+			View view = FXMLLoader.load(PrimaryView.class.getResource("anmelden.fxml"));
 			view.setName(name);
 			return view;
 		} catch (IOException e) {

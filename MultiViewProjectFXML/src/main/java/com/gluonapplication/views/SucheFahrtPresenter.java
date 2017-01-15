@@ -16,7 +16,7 @@ import com.gluonhq.charm.glisten.animation.BounceInRightTransition;
 import com.gluonhq.charm.glisten.application.MobileApplication;
 import com.gluonhq.charm.glisten.control.AppBar;
 import com.gluonhq.charm.glisten.control.DatePicker;
-import com.gluonhq.charm.glisten.control.Icon;
+import com.gluonhq.charm.glisten.control.TextField;
 import com.gluonhq.charm.glisten.control.ToggleButtonGroup;
 import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
@@ -30,7 +30,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
-import javafx.scene.control.TextField;
+
 import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage;
 
@@ -244,26 +244,26 @@ public class SucheFahrtPresenter {
 
 	}
 
-	public SucheFahrtPresenter start() {
-		try {
-
-			Stage primaryStage = new Stage();
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("SucheFahrt.fxml"));
-			Parent root = loader.load();
-			Scene scene = new Scene(root);
-
-			primaryStage.setScene(scene);
-
-			primaryStage.setTitle("My Dialog");
-			primaryStage.setResizable(false);
-			primaryStage.show();
-
-			return loader.getController();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
+//	public SucheFahrtPresenter start() {
+//		try {
+//
+//			Stage primaryStage = new Stage();
+//			FXMLLoader loader = new FXMLLoader(getClass().getResource("SucheFahrt.fxml"));
+//			Parent root = loader.load();
+//			Scene scene = new Scene(root);
+//
+//			primaryStage.setScene(scene);
+//
+//			primaryStage.setTitle("My Dialog");
+//			primaryStage.setResizable(false);
+//			primaryStage.show();
+//
+//			return loader.getController();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		return null;
+//	}
 
 	@FXML
 	void openCalendar() {

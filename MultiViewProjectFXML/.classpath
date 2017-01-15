@@ -45,11 +45,9 @@
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/robovm-objc-0.0.2.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/robovm-cocoatouch-0.0.13.jar"/>
-	<classpathentry kind="lib" path="/Users/yotti/Downloads/controlsfx-8.0.5.jar"/>
-	<classpathentry kind="lib" path="/Users/yotti/Downloads/controlsfx-8.40.11.jar"/>
-	<classpathentry kind="lib" path="/Users/yotti/Downloads/fontawesomefx-8.9.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Desktop/support-core-utils-25.1.0-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/sqlite-jdbc-3.15.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/yotti/.gradle/caches/modules-2/files-2.1/com.airhacks/afterburner.mfx/1.6.2/ac4ebd50da2e6ca84859dc1d1e571277c87bc252/afterburner.mfx-1.6.2.jar" sourcepath="/Users/yotti/.gradle/caches/modules-2/files-2.1/com.airhacks/afterburner.mfx/1.6.2/91e3185fd4170f2f954ddab25658563de094cc01/afterburner.mfx-1.6.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yotti/Downloads/android.jar"/>
+	<classpathentry kind="lib" path="/Users/yotti/Downloads/jfxdvk-8.60.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

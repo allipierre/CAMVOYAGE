@@ -43,7 +43,7 @@ public class DetailsSuchPresenter implements Initializable {
 	private TextArea ID_D;
 
 	public void initialize(URL location, ResourceBundle resources) {
-		primary1.getStylesheets().add(GluonApplication.class.getResource("DetailsSuch.css").toExternalForm());
+		primary1.getStylesheets().add(GluonApplication.class.getResource("detailssuch.css").toExternalForm());
 		primary1.setShowTransitionFactory(BounceInRightTransition::new);
 		primary1.showingProperty().addListener((obs, oldValue, newValue) -> {
 			if (newValue) {

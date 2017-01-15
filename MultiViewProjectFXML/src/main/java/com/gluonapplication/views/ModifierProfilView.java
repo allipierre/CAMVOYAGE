@@ -21,7 +21,7 @@ public class ModifierProfilView {
 
 	public View getView() {
 		try {
-			View view = FXMLLoader.load(PrimaryView.class.getResource("ModifierProfil.fxml"));
+			View view = FXMLLoader.load(PrimaryView.class.getResource("modifierprofil.fxml"));
 			view.setName(name);
 			return view;
 		} catch (IOException e) {

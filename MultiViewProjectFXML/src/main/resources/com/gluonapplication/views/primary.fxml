@@ -20,7 +20,7 @@
                <VBox.margin>
                   <Insets top="30.0" />
                </VBox.margin></Button>
-            <Button id="ID2" mnemonicParsing="false" onAction="#buttonClick" onContextMenuRequested="#buttonClick" onMouseClicked="#buttonClick" onMousePressed="#buttonClick" onMouseReleased="#buttonClick" prefHeight="58.0" prefWidth="212.0" text="Chercher un Trajet">
+            <Button id="ID2" mnemonicParsing="false" onAction="#buttonClick" onMouseClicked="#buttonClick" onTouchPressed="#buttonClick" onTouchReleased="#buttonClick" prefHeight="58.0" prefWidth="212.0" text="Chercher un Trajet">
                <VBox.margin>
                   <Insets top="35.0" />
                </VBox.margin>

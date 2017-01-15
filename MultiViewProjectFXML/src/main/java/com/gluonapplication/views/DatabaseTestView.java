@@ -22,7 +22,7 @@ public class DatabaseTestView {
 
 	public View getView() {
 		try {
-			View view = FXMLLoader.load(PrimaryView.class.getResource("DatabaseTest.fxml"));
+			View view = FXMLLoader.load(PrimaryView.class.getResource("databasetest.fxml"));
 			view.setName(name);
 			return view;
 		} catch (IOException e) {

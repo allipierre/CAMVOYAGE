@@ -122,7 +122,7 @@ public class BasicPresenter  implements Initializable  {
 			// 2. Set the filter Predicate whenever the filter changes.
 
 			textfilter.setPromptText("Depart");
-			textfilter.setAccessibleText("hh");
+			
 			buildFilterMenu();
 
 			test1();

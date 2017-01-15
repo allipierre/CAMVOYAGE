@@ -10,20 +10,6 @@
 }
 
 
-/* .charm-list-view .list-cell.header-cell {
-   
-    -fx-background-color: #B22234;
-}
-.charm-list-view .list-cell.header-cell > .list-tile > .text-box > .primary-text {
-   
-    -fx-text-fill: white;
-}
-
-.charm-list-view .list-cell.header-cell > .list-tile > .text-box > .secondary-text {
-   
-    -fx-text-fill: #FFFFFFDE;
-}*/
-
 .image-view{
 	-fx-background-color: #B22234;
 }

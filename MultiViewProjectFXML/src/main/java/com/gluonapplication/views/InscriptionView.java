@@ -21,7 +21,7 @@ public class InscriptionView {
 
 	public View getView() {
 		try {
-			View view = FXMLLoader.load(PrimaryView.class.getResource("Inscription.fxml"));
+			View view = FXMLLoader.load(PrimaryView.class.getResource("inscription.fxml"));
 			view.setName(name);
 			return view;
 		} catch (IOException e) {

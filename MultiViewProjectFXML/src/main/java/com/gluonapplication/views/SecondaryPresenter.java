@@ -1,5 +1,7 @@
 package com.gluonapplication.views;
 
+
+import com.gluonhq.charm.down.Services;
 import com.gluonhq.charm.glisten.animation.BounceInRightTransition;
 import com.gluonhq.charm.glisten.application.MobileApplication;
 import com.gluonhq.charm.glisten.control.AppBar;
@@ -7,15 +9,23 @@ import com.gluonhq.charm.glisten.layout.layer.FloatingActionButton;
 import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import com.gluonapplication.GluonApplication;
+import com.gluonapplication.SMSService;
+
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 
 public class SecondaryPresenter {
 
     @FXML
     private View secondary;
+    @FXML
+    private Button btn;
+    @FXML
+    private TextField textField;
    
-
+   
     public void initialize() {
         secondary.setShowTransitionFactory(BounceInRightTransition::new);
       
@@ -31,7 +41,11 @@ public class SecondaryPresenter {
                 appBar.setTitleText("Secondary");
                 appBar.getActionItems().add(MaterialDesignIcon.FAVORITE.button(e -> 
                         System.out.println("Favorite")));
+                textField.setText("004917680501750");
+                Services.get(SMSService.class).ifPresent(s -> btn.setOnAction(e -> s.sendSMS(textField.getText())));
             }
         });
+        textField.setText("004917680501750");
+        Services.get(SMSService.class).ifPresent(s -> btn.setOnAction(e -> s.sendSMS(textField.getText())));
     }
 }
