@@ -95,6 +95,7 @@ public class AllePresenter implements Initializable {
 					// Avatar avatar = new Avatar(18, AlleUSStates.getUSFlag());
 					// tile.setPrimaryGraphic(avatar);
 					setText(null);
+					System.out.println();
 				}
 
 				@Override
