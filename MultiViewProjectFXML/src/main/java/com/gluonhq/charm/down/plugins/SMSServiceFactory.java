@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.gluonapplication;
+package com.gluonhq.charm.down.plugins;
 
 import com.gluonhq.charm.down.DefaultServiceFactory;
 

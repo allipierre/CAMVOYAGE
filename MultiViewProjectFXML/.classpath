@@ -47,7 +47,7 @@
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/robovm-cocoatouch-0.0.13.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Desktop/support-core-utils-25.1.0-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/sqlite-jdbc-3.15.1.jar"/>
-	<classpathentry kind="lib" path="/Users/yotti/Downloads/android.jar"/>
 	<classpathentry kind="lib" path="/Users/yotti/Downloads/jfxdvk-8.60.8.jar"/>
+	<classpathentry kind="lib" path="/Users/yotti/Downloads/android.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

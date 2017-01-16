@@ -7,8 +7,10 @@
  *
  */
 
+package com.gluonhq.charm.down.plugins.android;
 
-import com.gluonapplication.SMSService;
+
+import com.gluonhq.charm.down.plugins.SMSService;
 
 import android.content.Intent;
 import android.net.Uri;

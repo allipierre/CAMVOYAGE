@@ -2,6 +2,7 @@ package com.gluonapplication.views;
 
 
 import com.gluonhq.charm.down.Services;
+import com.gluonhq.charm.down.plugins.SMSService;
 import com.gluonhq.charm.glisten.animation.BounceInRightTransition;
 import com.gluonhq.charm.glisten.application.MobileApplication;
 import com.gluonhq.charm.glisten.control.AppBar;
@@ -9,7 +10,7 @@ import com.gluonhq.charm.glisten.layout.layer.FloatingActionButton;
 import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import com.gluonapplication.GluonApplication;
-import com.gluonapplication.SMSService;
+
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

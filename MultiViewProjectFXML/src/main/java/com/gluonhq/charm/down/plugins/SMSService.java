@@ -1,8 +1,8 @@
 /**
  * 
  */
-package com.gluonapplication;
 
+package com.gluonhq.charm.down.plugins;
 
 
 /**
