@@ -56,7 +56,7 @@ public class SucheFahrtPresenter {
 	private Label lbl5, PLACE;
 
 	@FXML
-	TextField DP, DC, Tdate;
+	TextField DP, DC, tdate;
 
 	@FXML
 	private Button CUT;
@@ -232,56 +232,61 @@ public class SucheFahrtPresenter {
 
 	}
 
-	public void setDP2() {
+	// public void setDP2() {
+	//
+	// primary1.showingProperty().addListener((obs, oldValue, newValue) -> {
+	// if (newValue) {
+	//
+	// tdate.setText(model3.getText());
+	//
+	// }
+	// });
+	//
+	// }
 
-		primary1.showingProperty().addListener((obs, oldValue, newValue) -> {
-			if (newValue) {
-
-				Tdate.setText(model3.getText());
-
-			}
-		});
-
-	}
-
-//	public SucheFahrtPresenter start() {
-//		try {
-//
-//			Stage primaryStage = new Stage();
-//			FXMLLoader loader = new FXMLLoader(getClass().getResource("SucheFahrt.fxml"));
-//			Parent root = loader.load();
-//			Scene scene = new Scene(root);
-//
-//			primaryStage.setScene(scene);
-//
-//			primaryStage.setTitle("My Dialog");
-//			primaryStage.setResizable(false);
-//			primaryStage.show();
-//
-//			return loader.getController();
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return null;
-//	}
+	// public SucheFahrtPresenter start() {
+	// try {
+	//
+	// Stage primaryStage = new Stage();
+	// FXMLLoader loader = new
+	// FXMLLoader(getClass().getResource("SucheFahrt.fxml"));
+	// Parent root = loader.load();
+	// Scene scene = new Scene(root);
+	//
+	// primaryStage.setScene(scene);
+	//
+	// primaryStage.setTitle("My Dialog");
+	// primaryStage.setResizable(false);
+	// primaryStage.show();
+	//
+	// return loader.getController();
+	// } catch (Exception e) {
+	// e.printStackTrace();
+	// }
+	// return null;
+	// }
 
 	@FXML
 	void openCalendar() {
+		try {
+			Locale.setDefault(Locale.FRANCE);
+			// MobileApplication.getInstance().switchView(CALENDAR_VIEW);
+			DatePicker datepicker = new DatePicker();
+			datepicker.getButtons().get(0).setText("ANNULER");
+			datepicker.getButtons().get(1).setText("ACCEPTER");
+			datepicker.getButtons().get(0).setStyle("-fx-font-weight: bold;");
+			datepicker.getButtons().get(1).setStyle("-fx-font-weight: bold;");
+			datepicker.getButtons().get(1).setStyle("-fx-font-size: 14.0px;");
+			datepicker.getButtons().get(0).setStyle("-fx-font-size: 14.0px;");
+			datepicker.showAndWait().ifPresent(System.out::println);
 
-		Locale.setDefault(Locale.FRANCE);
-		// MobileApplication.getInstance().switchView(CALENDAR_VIEW);
-		DatePicker datePicker = new DatePicker();
-		datePicker.getButtons().get(0).setText("ANNULER");
-		datePicker.getButtons().get(1).setText("ACCEPTER");
-		datePicker.getButtons().get(0).setStyle("-fx-font-weight: bold;");
-		datePicker.getButtons().get(1).setStyle("-fx-font-weight: bold;");
-		datePicker.getButtons().get(1).setStyle("-fx-font-size: 14.0px;");
-		datePicker.getButtons().get(0).setStyle("-fx-font-size: 14.0px;");
-		datePicker.showAndWait().ifPresent(System.out::println);
+			LocalDate date = datepicker.getDate();
+			tdate.setText(date + "");
+		} catch (Exception e) {
+			e.printStackTrace();
 
-		LocalDate date = datePicker.getDate();
-		Tdate.setText(date + "");
-		System.out.println("Selected date: " + date);
+		}
+		// System.out.println("Selected date: " + date);
 
 	}
 

@@ -47,12 +47,12 @@ public class GluonApplication extends MobileApplication {
 	public void init() {
 		
 		addViewFactory(PRIMARY_VIEW, () -> (View)new PrimaryView().getView());
-		addViewFactory(SECONDARY_VIEW, () -> new SecondaryView(SECONDARY_VIEW).getView());
+		addViewFactory(SECONDARY_VIEW, () -> (View)new SecondaryView().getView());
 		addViewFactory(SUCHEFAHRT_VIEW, () -> (View) new SucheFahrtView().getView());
-		addViewFactory(ANMELDEN_VIEW, () -> new AnmeldenView(ANMELDEN_VIEW).getView());
-		addViewFactory(INSCRIPTION_VIEW, () -> new InscriptionView(INSCRIPTION_VIEW).getView());
-		addViewFactory(DATABASETEST_VIEW, () -> new DatabaseTestView(DATABASETEST_VIEW).getView());
-		addViewFactory(MODIFIERPROFIL_VIEW, () -> new ModifierProfilView(MODIFIERPROFIL_VIEW).getView());
+		addViewFactory(ANMELDEN_VIEW, () -> (View)new AnmeldenView().getView());
+		addViewFactory(INSCRIPTION_VIEW, () -> (View)new InscriptionView().getView());
+		addViewFactory(DATABASETEST_VIEW, () -> (View)new DatabaseTestView().getView());
+		addViewFactory(MODIFIERPROFIL_VIEW, () -> (View)new ModifierProfilView().getView());
 		addViewFactory(BASIC_VIEW, () -> (View) new BasicView().getView());
 		addViewFactory(DESTINATION_VIEW, () -> (View) new DestinationView().getView());
 		addViewFactory(CALENDAR_VIEW, () -> (View) new CalendarView().getView());
