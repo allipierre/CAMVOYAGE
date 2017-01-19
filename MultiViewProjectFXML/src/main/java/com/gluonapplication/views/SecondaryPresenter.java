@@ -69,7 +69,7 @@ public class SecondaryPresenter {
 	public void browser() {
 		Services.get(BrowserService.class).ifPresent(service -> {
 			try {
-				service.launchExternalBrowser("www.google.com");
+				service.launchExternalBrowser("https://github.com/");
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
@@ -81,7 +81,8 @@ public class SecondaryPresenter {
 		Services.get(BarcodeScanService.class).ifPresent(service -> {
 			BarcodeScanService barcodeScanService = (BarcodeScanService) new BarcodeScanServiceFactory();
 			Optional<String> barcode = barcodeScanService.scan();
-			barcode.ifPresent(barcodeValue -> System.out.println("Scanned Bar Code: " + barcodeValue));
+			barcode.ifPresent(barcodeValue -> LS4.setText(barcodeValue));
+			
 		});
 	}
 
