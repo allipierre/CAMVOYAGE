@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
@@ -11,10 +12,21 @@
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
+            <Label fx:id="LS4" text="Label" />
+            <Button mnemonicParsing="false" onAction="#position" text="Button" />
+            <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <Button mnemonicParsing="false" onAction="#picture" text="Button" />
+            <Button mnemonicParsing="false" onAction="#call" text="Button" />
             <TextField fx:id="textField" />
             <Button fx:id="btn" mnemonicParsing="false" prefHeight="50.0" prefWidth="180.0" text="Button" />
             <Label text="This is Secondary!" />
+            <Button fx:id="call" mnemonicParsing="false" prefHeight="61.0" prefWidth="162.0" text="Button" />
+            <Button fx:id="BS" mnemonicParsing="false" onAction="#browser" prefHeight="57.0" prefWidth="114.0" text="Button" />
+            <Button mnemonicParsing="false" onAction="#barCode" prefHeight="43.0" prefWidth="59.0" text="Button" />
          </children>
       </VBox>
    </center>
+   <top>
+      <Button mnemonicParsing="false" onAction="#batterie" text="Button" BorderPane.alignment="CENTER" />
+   </top>
 </View>

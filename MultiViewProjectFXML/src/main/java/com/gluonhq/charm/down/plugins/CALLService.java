@@ -1,17 +1,12 @@
 /**
  * 
  */
-
 package com.gluonhq.charm.down.plugins;
-
 
 /**
  * @author yotti
  *
  */
-public interface SMSService {
-    void sendSMS(String numbere);
-    
-    
+public interface CALLService {
+	void callNUMBER(String numbere);
 }
-

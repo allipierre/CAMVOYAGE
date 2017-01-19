@@ -25,4 +25,6 @@ public class AndroidSMSService implements SMSService {
         FXActivity.getInstance().startActivity(smsIntent);
     }
 
+	
+
 }
